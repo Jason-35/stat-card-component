@@ -77,19 +77,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 10px 10px 0px;
 }
 
-@media (max-width: 375) {
+@media (max-width: 375px) {
     .image::after {
-        content: "";
-        background: hsla(277, 100%, 25%, 0.55);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 0px 0px 0px 0px;
+        border-radius: 10px 10px 0px 0px;
     }
 }
 
